@@ -1,0 +1,25 @@
+customization:
+  distribution_code_name: Squirrel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Dec  5 16:13:42 2024"
+  rime_version: 1.11.2
+patch:
+  # 支持的方案列表
+  schema_list:
+    - {schema: rime_ice}
+  # 菜单候选项显示数量
+  menu:
+    page_size: 7
+  # 切换方案设置
+  switcher:
+    # 名称
+    caption: 「切换方案」
+    # 快捷键
+    hotkeys:
+      # control+`
+      - Control+grave
+  # 中英文切换
+  ascii_composer:
+    # 关闭大写锁定切换中英文
+    good_old_caps_lock: false
