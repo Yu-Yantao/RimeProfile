@@ -19,3 +19,7 @@ patch:
     hotkeys:
       # control+`
       - Control+grave
+  # 中英文切换
+  ascii_composer:
+    # 关闭大写锁定切换中英文
+    good_old_caps_lock: false
