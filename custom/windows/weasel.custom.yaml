@@ -5,4 +5,33 @@ customization:
   modified_time: "Thu Dec  5 16:00:17 2024"
   rime_version: 1.11.2
 patch:
-  "style/color_scheme": ink
+  "style/color_scheme": windows_light
+  preset_color_schemes:
+    # 参考自: https://simgv.com/2022/01/11/rime-skin/
+    windows_light:
+      name: 'Windows 浅色 / Windows-White-Keyboard'    # 主题名称
+      author: Yu Yantao                               # 作者名称
+
+      # 颜色配置
+      back_color: 0xFFFFFF                            # 背景颜色（白色）
+      comment_text_color: 0x999999                    # 注释文字颜色
+      text_color: 0x424242                            # 文字颜色
+      hilited_candidate_back_color: 0xD75A00          # 高亮候选词的背景颜色
+      hilited_candidate_text_color: 0xFFFFFF          # 高亮候选词的文字颜色
+
+      # 边框配置
+      border_height: 1                                # 边框高度（无边框）
+      border_width: 8                                 # 边框宽度
+      candidate_format: '%c %@ '                      # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5                                # 圆角半径
+      hilited_corner_radius: 5                        # 高亮候选词的圆角半径
+
+
+      # 字体配置
+#      font_face: PingFangSC                           # 字体类型
+      font_point: 16                                  # 字体大小
+      label_font_point: 12                            # 编号字体大小
+
+      # 其他配置
+      horizontal: true                                # 是否水平排列候选词
+      inline_preedit: true                            # 是否内联显示预编辑文本
