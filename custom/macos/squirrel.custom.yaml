@@ -9,7 +9,7 @@ patch:
   style:
     # 主题
     color_scheme: mac_light
-    # 全局字号
+    # 候选项排列方式
     candidate_list_layout: linear
   preset_color_schemes:
     # 参考自: https://simgv.com/2022/01/11/rime-skin/
