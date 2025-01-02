@@ -64,3 +64,6 @@ code	code
 SOHO	soho
 
 -site:csdn.net	csdn
+oatnayuy@gmail.com	gmail
+oatnayuy@outlook.com	outlook
+1823771125@qq.com	qq
