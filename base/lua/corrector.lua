@@ -3,6 +3,8 @@
 	示例：「给予」的正确读音是 ji yu，当用户输入 gei yu 时，在候选项的 comment 显示正确读音
 	示例：「按耐」的正确写法是「按捺」，当用户输入「按耐」时，在候选项的 comment 显示正确写法
 
+	关闭此 Lua 时，同时需要关闭 translator/spelling_hints，否则 comment 里都是拼音
+
 	为了让这个 Lua 同时适配全拼与双拼，使用 `spelling_hints` 生成的 comment（全拼拼音）作为通用的判断条件。
 	感谢大佬@[Shewer Lu](https://github.com/shewer)提供的思路。
 	
@@ -104,6 +106,18 @@ function M.init(env)
         ["yin gai"] = { text = "应该", comment = "应(yīng)该" },
         ["nian tie"] = { text = "粘贴", comment = "粘(zhān)贴" },
         ["gao ju li"] = { text = "高句丽", comment = "高句(gōu)丽" },
+        ["jiao dou shi"] = { text = "角斗士", comment = "角(jué)斗士" },
+        ["suo sha mi"] = { text = "缩砂密", comment = "缩(sù)砂密" },
+        ["po ji pao"] = { text = "迫击炮", comment = "迫(pǎi)击炮" },
+        ["rou yi"] = { text = "柔荑", comment = "柔荑(tí)" },
+        ["rou yi hua xu"] = { text = "柔荑花序", comment = "柔荑(tí)花序" },
+        ["shou ru rou yi"] = { text = "手如柔荑", comment = "手如柔荑(tí)" },
+        ["wen ting jun"] = { text = "温庭筠", comment = "温庭筠(yún)" },
+        ["guan ka"] = { text = "关卡", comment = "guān qiǎ" },
+        ["san wei zhen huo"] = { text = "三昧真火", comment = "三昧(mèi)真火" },
+        ["qing ping zhi mo"] = { text = "青𬞟之末", comment = "青𬞟(pín)之末" },
+        ["qi yu qing ping zhi mo"] = { text = "起于青𬞟之末", comment = "起于青𬞟(pín)之末" },
+        ["feng qi yu qing ping zhi mo"] = { text = "风起于青𬞟之末", comment = "风起于青𬞟(pín)之末" },
         -- 错字
         ["pu jie"] = { text = "扑街", comment = "仆街" },
         ["pu gai"] = { text = "扑街", comment = "仆街" },
@@ -124,6 +138,7 @@ function M.init(env)
         ["ju hui"] = { text = "钜惠", comment = "巨惠" },
         ["mo xie zuo"] = { text = "魔蝎座", comment = "摩羯(jié)座" },
         ["pi sa"] = { text = "披萨", comment = "比(bǐ)萨" },
+        ["geng quan"] = { text = "梗犬", comment = "㹴犬" },
     }
 end
 
