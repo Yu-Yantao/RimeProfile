@@ -63,6 +63,11 @@ Go程	gocheng
 code	code
 SOHO	soho
 
+
+Kafka	kaf
+Nacos	naco
+
+
 -site:csdn.net	csdn
 oatnayuy@gmail.com	gmail
 oatnayuy@outlook.com	outlook
