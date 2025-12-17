@@ -66,7 +66,8 @@ SOHO	soho
 
 Kafka	kaf
 Nacos	naco
-
+Ollama  oll
+Xinference  xiner
 
 -site:csdn.net	csdn
 oatnayuy@gmail.com	gmail
